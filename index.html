@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Your Website</title>
+    
+</head>
+<body>
+
+    <header>
+        <div>    
+<i class="fas fa-user" id="font"></i>
+<i class="fas fa-search" id="ser"></i>
+            <input type="text" placeholder="Search" class="search-bar">
+            <button class="main">Login</button>
+            <button class="main">Sign up</button>
+        </div>
+    </header>
+
+    <section class="logo-section">
+        <img src="logoo.jpg" alt="Your Logo" class="logo">
+    </section>
+
+    <nav class="navbar navbar-expand-sm " id="nav">
+        <div class="container-fluid">
+        <ul class="navbar-nav  mx-auto">
+            <li class="nav-item ">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" href="categories.html">Categories</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="cart.html">Cart</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Payment_Recipt.html">Payment Receipt</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+            </li> <div class="dropdown">
+                <button class="dropbtn">Categories
+                <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                <a href="#">Fiction</a>
+                <a href="#">Dystopian</a>
+                <a href="#">Science Fiction</a>
+                <a href="#">Fantasy</a>
+                <a href="#">Mystery</a>
+                <a href="#">Historical Fiction</a>
+                <a href="#">Gothic</a>
+                <a href="#">Horror</a>
+                <a href="#">Philosophical</a>
+                <a href="#">Contemporary</a>
+                <a href="#">Autobiographical</a>
+                <a href="#">Adventure</a>
+                </div>
+            </div> 
+        </ul>
+        </div>
+    </nav>
+
+    <h3 class="qou">"There is no friend as loyal as a books"</h3>
+    <h4 class="qou">~ERNEST HAMINGWAY.</h4>
+    <div class="banner">
+        <div class="image-container">
+            <img src="images/au.jpg" alt="Image 1" class="im"> 
+        </div>
+        <div class="image-container">
+            <img src="images/da_vinci_code.jpg" alt="Image 2" class="im"> 
+        </div>
+        <div class="text-container">
+            <h1>Our Best Selling.</h1>
+            <p>"Everyone loves conspiracy"</p>
+            <h4>The Author: DAN BROWN</h4>
+            <button id="btn">Buy Now!</button>
+        </div>
+    </div>
+<hr>
+
+    <h2 class="onl">Online Library Management System</h2>
+
+<div id="demo" class="carousel slide" data-bs-ride="carousel" >
+    <div class=" d-flex justify-content-center align-items-center">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+   <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+   <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+    </div>
+
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="d-flex justify-content-center align-items-center" id="pics">
+                    <img src="images/digi5.jpg" alt="Los Angeles" class="d-block" id="c-img">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="d-flex justify-content-center align-items-center" id="pics">
+                    <img src="images/digi.jpg" alt="Chicago" class="d-block " id="c-img">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="d-flex justify-content-center align-items-center" id="pics">
+                    <img src="images/digi3.jpg" alt="New York" class="d-block" id="c-img">
+                </div>
+                
+            </div>
+            <div class="carousel-item">
+                <div class="d-flex justify-content-center align-items-center" id="pics">
+                    <img src="images/digi4.jpg" alt="New York" class="d-block" id="c-img">
+                </div>
+                
+            </div>
+            <div class="carousel-item">
+                <div class="d-flex justify-content-center align-items-center" id="pics">
+                    <img src="images/digi2.jpg" alt="New York" class="d-block" id="c-img">
+                </div>
+                
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev" id="but">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next" id="but">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+<hr>
+
+<h1 class="cate" >Products Listing </h1>
+<div class="container" id="bookContainer"></div>
+
+<div class="banner2">
+    <img src="images/b2.jpg" alt="Banner Image">
+    <div class="banner-content">
+        <h1> e-LibraryApp</h1>
+        <p>Discover amazing content and download now!</p>
+        <a href="#" class="download-button">Download</a>
+    </div>
+</div>
+
+<footer class="foot">
+    <p>&copy; 2023 House of books. All rights reserved.</p>
+</footer>
+<script>
+    function addToCart(book) {
+        let cartItems = JSON.parse(localStorage.getItem('cart')) || [];
+        const existingCartItem = cartItems.find(item => item.title === book.title);
+
+        if (existingCartItem) {
+            existingCartItem.quantity += 1;
+        } else {
+            cartItems.push({
+                title: book.title,
+                price: book.price,
+                quantity: 1
+            });
+        }
+
+        localStorage.setItem('cart', JSON.stringify(cartItems));
+        alert('Book added to cart!');
+    }
+    function viewCart() {
+        window.location.href = 'cart.html';
+    }
+    fetch('books.json')
+        .then(response => response.json())
+        .then(data => displayBooks(data));
+
+    function displayBooks(books) {
+        const bookContainer = document.getElementById('bookContainer');
+
+        books.forEach(book => {
+            const card = document.createElement('div');
+            card.classList.add('card', 'mb-3');
+
+            const img = document.createElement('img');
+            img.classList.add('card-img-top');
+            img.src = book.cover_image;
+            img.alt = `${book.title} Cover`;
+            img.style.height = '360px';
+
+            const cardBody = document.createElement('div');
+            cardBody.classList.add('card-body');
+
+            const title = document.createElement('h5');
+            title.classList.add('card-title');
+            title.textContent = book.title;
+
+            const author = document.createElement('p');
+            author.classList.add('card-text');
+            author.textContent = `Author: ${book.author}`;
+
+            const price = document.createElement('p');
+            price.classList.add('card-text');
+            price.textContent = `Price: $${book.price.toFixed(2)}`;
+
+            const addToCartButton = document.createElement('button');
+            addToCartButton.classList.add('btn', 'btn-danger', 'mr-2');
+            addToCartButton.textContent = 'Add to Cart';
+
+            const viewCartButton = document.createElement('button');
+            viewCartButton.classList.add('btn', 'btn-secondary');
+            viewCartButton.textContent = 'View Cart';
+
+            addToCartButton.addEventListener('click', () => addToCart(book));
+            viewCartButton.addEventListener('click', () => viewCart());
+
+            cardBody.appendChild(title);
+            cardBody.appendChild(author);
+            cardBody.appendChild(price);
+            cardBody.appendChild(addToCartButton);
+            cardBody.appendChild(viewCartButton);
+
+            card.appendChild(img);
+            card.appendChild(cardBody);
+
+            bookContainer.appendChild(card);
+        });
+    }
+
+
+</script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<hr>
+
+</body>
+</html>
